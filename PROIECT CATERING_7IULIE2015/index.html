@@ -1,0 +1,137 @@
+<!Doctype html>
+<html>
+<head>
+<title>Catering.com</title>
+<meta name="author" content="Dorel Vlad"/>
+<link rel="stylesheet" style="type/text" href="style.css"/>
+<script language="JavaScript1.1">
+<!--
+var slideimages=new Array()
+var slidelinks=new Array()
+
+function slideshowimages()
+{
+	for (i=0;i<slideshowimages.arguments.length;i++)
+	{
+	slideimages[i]=new Image()
+	slideimages[i].src=slideshowimages.arguments[i]
+	}
+}
+
+
+function slideshowlinks()
+{
+	for (i=0;i<slideshowlinks.arguments.length;i++)
+	slidelinks[i]=slideshowlinks.arguments[i]
+}
+
+
+function gotoshow()
+{
+	if (!window.winslide||winslide.closed)
+	winslide=window.open(slidelinks[whichlink])
+	else
+	winslide.location=slidelinks[whichlink]
+	winslide.focus()
+}
+//-->
+</script>
+</head>
+<body>
+<div id="containermeniu">
+<div id="meniu1">
+<ul>
+	<li class="catering"> Catering<span style="color:red">.com</span></li>
+</ul>
+</div>
+<div id="meniu2">
+<ul>
+	<li><a href="">About</a></li>
+	<li><a href="">Menu</a></li>
+	<li><a href="index2.html" target="_blank">Catalogue</a></li>
+	<li><a href="">Shopping</a></li>
+	<li><a href="">FAQ</a></li>
+	<li><a href="">Contact</a></li>
+</ul>
+</div>
+</div>
+<div id="content">
+<h2 class="h2"><span style="color:white">Impressive sellection</span> for any Ocassion</h2>
+<a  href="javascript:gotoshow()"><img src="pictures/slider-img1.jpg" alt="Meniuri speciale" name="slide" class="pic"/></a>
+<script>
+
+
+slideshowimages("pictures/slider-img1.jpg","pictures/slider-img2.jpg","pictures/slider-img3.jpg") 					
+//configure the speed of the slideshow, in miliseconds
+
+var slideshowspeed=4000
+var whichlink=0
+var whichimage=0
+
+function slideit()
+{
+if (!document.images)
+return
+document.images.slide.src=slideimages[whichimage].src
+whichlink=whichimage
+if (whichimage<slideimages.length-1)
+whichimage++
+else
+whichimage=0
+setTimeout("slideit()",slideshowspeed)
+}
+slideit()
+//-->
+</script>
+</div>
+<div class="clear">
+</div>
+<div id="content2">
+<br>
+<br>
+<div class="pics">
+<img src="pictures/pic1.jpg" alt="Food delivery to your door" width="291" height="150" />
+<img src="pictures/pic2.jpg" alt="Book wedding" width="291" height="150" />
+<img src="pictures/pic3.jpg" alt="Gift Certificates" width="291" height="150"/>
+</div>
+<div id="paragraf1">
+<br>
+<h1>Our Services</h1>
+<br>
+<ul class="greendot">
+	<li>Duis autem vel eum iriure dolor</li>
+	<li>Hendrerit in vulputate velit esse molestie</li>
+	<li>Consequat vel ilum dolore</li>
+	<li>Feugiat nulla facilisis at vero eros</li>
+	<li>Accumsan et iusto odio dignissim qui</li>
+	<li>Blandit praesent luptatum azril</li>
+	<li>Delenit augue duis dolore feugait</li>
+</ul>
+<br>
+<form action="index.html" method="get">
+<input type="submit" class="submit" name="submit" value="Read More" style="background-color:orange;color:white"/>
+</form>
+</div>
+<div id="paragraf2">
+<br>
+<h1>About the Catering</h1>
+<br>
+<p style="color:green"><strong>Catering is one of free websites templates created by Template Monster.com team.This website<br/> 
+template is optimized for 1280 x 1024 screen resolution</strong></p>
+<p>The catering packages goes with two packages-with PSD source files and without them.PSD source<br/>
+files are available for free for the registred members of Templates Monster.com. The basic package(without<br/>
+PSD source) is available for anyone without registration.
+<br>
+This website template has several pages:<u>About</u>,<u> Menu</u>,<u> Catalogue</u>,<u> Shopping</u>, <u>FAQ</u>, <u>Contact</u>(note that<br/> contact us form-doesn't work).</p>
+<br>
+<form action="index.html" method="get">
+<input type="submit" class="submit2" name="submit" value="Read More" style="background-color:green;color:white"/>
+</form>
+</div>
+</div>
+<div id="footer">
+<p>
+Copyright&nbsp;&nbsp;&copy; &nbsp;&nbsp;<span style="color:red"><u>Domain name</u></span>&nbsp;&nbsp;All rights reserved</p>
+</div>
+</body>
+</html>

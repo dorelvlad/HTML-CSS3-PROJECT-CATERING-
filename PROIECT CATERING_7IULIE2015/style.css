@@ -1,0 +1,237 @@
+body { margin:0; padding:0;font-family:Arial, Helvetica, sans-serif; }
+input, textarea, button { font-family:Arial, Helvetica, sans-serif; font-size: 12px; color: #000; border: none; background: none; margin:0; padding:0;outline:none; }
+ textarea { overflow: auto; outline:none; resize:none; } 
+ a { outline: none; text-decoration: none; }
+ a:hover { text-decoration:none; } 
+ p, h1, h2, h3, h4, h5, h6, ul, ol, li, hr, form, fieldset, legend, table, thead, tbody, blockquote { margin: 0; padding: 0; } ul { list-style-type: none; } a img { border: none; }
+@font-face {
+    font-family: 'darlestonregular';
+    src: url('font/darleston-webfont.eot');
+    src: url('font/darleston-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/darleston-webfont.woff2') format('woff2'),
+         url('font/darleston-webfont.woff') format('woff'),
+         url('font/darleston-webfont.ttf') format('truetype'),
+         url('font/darleston-webfont.svg#darlestonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+width:1263px;
+min-height:1000px;
+margin:0 auto;
+}
+#containermeniu{
+width:1263px;
+min-height:85px;
+background:black;
+color:white;
+}
+#meniu1{
+width:314px;
+height:85px;
+float:left;
+padding:0px 100px 0px 151.5px;
+}
+#meniu1 ul{
+height:85px;
+
+}
+#meniu1 ul li{
+font-family: 'darlestonregular';
+font-size:60px;
+list-style-type:none;
+}
+#meniu2{
+height:20px;
+float:left;
+padding:30px;
+padding-left:30px;
+
+}
+#meniu2 ul li{
+display:inline;
+list-style-type:none;
+padding-right:52px;
+}
+#meniu2 li a{
+text-decoration:none;
+font-family:arial;
+color:white;
+font-size:12px;
+}
+#meniu2 li a:hover{
+color:red;
+}
+#content{
+width:1263px;
+height:580px;
+background:radial-gradient(yellow,red);
+position:relative;
+margin:0 auto;
+}
+#content h2{
+font-family: 'darlestonregular';
+color:black;
+font-size:70px;
+float:left;
+padding:10px;
+margin-left:291px;
+}
+
+#content img.pic{
+border: 10px solid white;
+position:absolute;
+top: 120px;left:151.5px;
+z-index: 2;
+}
+.clear{
+clear:both;
+}
+#content2{
+width:1263px;
+height:580px;
+background:#e0e0e0;
+}
+.pics{
+float:left;
+margin-left:151.5px;
+}
+.pics img{
+border:10px solid white;
+margin-right:10px;
+}
+#paragraf1{
+width:296px;
+height:320px;
+font-family:arial;
+font-size:12px;
+float:left;
+margin-left:151.5px;
+padding-left:15px;
+}
+ul.greendot{
+list-style-image:url("pictures/small_red_dot.png");
+color:grey;
+}
+#paragraf2{
+width:636px;
+height:320px;
+font-family:arial;
+font-size:11px;
+float:left;
+padding-left:14px;
+}
+
+#paragraf1 ul li{
+line-height:30px;
+
+}
+#paragraf2 p{
+line-height:30px;
+}
+form{
+font-family:arial;
+font-size:13px;
+}
+.submit{
+padding:10px;
+background:linear-gradient(orange,red);
+}
+.submit2{
+padding:10px;
+background:linear-gradient(yellow,green);
+}
+#pg2content{
+width:1263px;
+height:112px;
+background:radial-gradient(yellow,red);
+margin:0 auto;
+}
+#pg2content h2{
+font-family: 'darlestonregular';
+color:black;
+font-size:70px;
+float:left;
+padding:10px;
+margin-left:291px;
+}
+#contentpg2{
+width:1263px;
+height:780px;
+background:#e0e0e0;;
+margin:0 auto;
+}
+.catalog{
+font-family:arial;
+}
+.firstcolumn{
+width:220px;
+min-height:500px;
+line-height:22px;
+float:left;
+margin-left:151.5px;
+margin-right:24px;
+}
+ p{
+font-family:arial;
+color:grey;
+font-size:13px;
+}
+.secondcolumn{
+width:220px;
+min-height:500px;
+padding:2px;
+padding-top:66px;
+line-height:22px;
+float:left;
+margin-right:24px;
+}
+.thirdcolumn{
+width:220px;
+min-height:500px;
+padding:2px;
+padding-top:66px;
+line-height:22px;
+float:left;
+margin-right:24px;
+}
+.fourthcolumn{
+width:220px;
+min-height:500px;
+padding:1px;
+padding-top:66px;
+line-height:22px;
+float:left;
+}
+#content2 h2, h5{
+font-family:arial;
+color:grey;
+}
+.next li{
+font-family:arial;
+color:red;
+font-weight:bold;
+font-size:13px;
+display:inline;
+padding-right:10px;
+}
+#footer{
+width:1263px;
+min-height:85px;
+background:black;
+}
+#footer p{
+padding-top:36.5px;
+padding-bottom:36.5px;
+padding-left:502px;
+padding-right:502px;
+font-family:arial;
+font-size:12px;
+color:white;
+}
+
+
+
+
+
+
